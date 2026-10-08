@@ -6,4 +6,4 @@ function calculate(num1,num2){
     logger(sum);
     return sum;
 }
-calculate(5,5);
+calculate(10,5);

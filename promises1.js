@@ -1,6 +1,6 @@
 // Promise Structure
 const myPromise = new Promise((resolve, reject) => {
-  resolve("Success")
+  resolve()
      // reject("Failed")
 })
 // Promise resolve callback called

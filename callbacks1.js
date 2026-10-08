@@ -17,8 +17,8 @@ function calculateWithCallback(num1, num2, callback) {
   return sum;
 }
 
-calculate(5, 5);
+calculate(10, 5);
  // Send logger as callback
 calculateWithCallback(5, 5, logger);
 // Send empty function as callback to not log
- calculateWithCallback(5, 5, () => {});
+ calculateWithCallback(20, 5, () => {});
